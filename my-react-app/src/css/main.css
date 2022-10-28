@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-
-/* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
   width: 100%;
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -77,7 +75,7 @@ body {
   border-radius: 8px;
   border: 1px solid #EAECF0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   text-align: center;
   color: #101828;
