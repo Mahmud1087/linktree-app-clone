@@ -6,12 +6,29 @@ import share_large from "../assets/_Avatar share button.png"
 export default function Header() {
     return (
         <div className="header">
-            <img src={profile_img} alt="profile picture" id="profile__img" className="profile_img" />
-            <img src={profile_img_hover} alt="Profile image hover" className="img_hover" />
+            <img 
+            src={profile_img} 
+            alt="profile picture" 
+            id="profile__img" 
+            className="profile_img" 
+            />
+            <img 
+            src={profile_img_hover} 
+            alt="Profile image hover" 
+            className="img_hover" 
+            />
             <h4 id="twitter">Abdulazeez Mahmud</h4>
             <h4 className="slack" id="slack">Enesi</h4>
-            <img src={share_mobile} alt="Mobile share button" className="share_mobile" />
-            <img src={share_large} alt="Medium and large screens share button" className="share_large" />
+            <img 
+            src={share_mobile} 
+            alt="Mobile share button" 
+            className="share_mobile" 
+            />
+            <img 
+            src={share_large} 
+            alt="Medium and large screens share button" 
+            className="share_large" 
+            />
         </div>
     )
 }
