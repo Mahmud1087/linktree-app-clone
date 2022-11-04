@@ -2,14 +2,23 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import "./css/main.css"
+import { Routes, Route } from "react-router-dom"
+import Contact from "./components/Contact";
 
 export default function App() {
     return (
-        <div className="container">
-            <Header />
-            <Body />
-            <Footer />
-        </div>
+        <>
+            <Routes>
+                <Route path="/" element={(
+                    <div className="container">
+                        <Header />
+                        <Body />
+                        <Footer />
+                    </div>
+                )}/>
+                <Route path="/contact" element={<Contact />}/>
+            </Routes>
+        </>
         
     )
 }
