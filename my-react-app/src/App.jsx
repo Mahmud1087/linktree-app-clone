@@ -13,11 +13,13 @@ export default function App() {
                     <div className="container">
                         <Header />
                         <Body />
-                        <Footer />
                     </div>
                 )}/>
                 <Route path="/contact" element={<Contact />}/>
             </Routes>
+            <div className="container">
+                <Footer />
+            </div>
         </>
         
     )
