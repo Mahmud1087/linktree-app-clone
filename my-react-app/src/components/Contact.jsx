@@ -56,8 +56,8 @@ export default function Contact() {
                         <span className="box"></span>
                     </label>
                     <Link 
-                        to="/success" 
-                        element={<h2>Success!</h2>}>Send message
+                        to="/success"
+                        id="btn__submit">Send message
                     </Link>
                 </div>
             </form>
