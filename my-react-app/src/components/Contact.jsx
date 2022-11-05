@@ -15,7 +15,6 @@ export default function Contact() {
                             type="text"
                             id="first_name"
                             placeholder="Enter your first name"
-                            className="form--name"
                         />
                     </label>
 
@@ -23,8 +22,7 @@ export default function Contact() {
                         <input 
                             type="text"
                             id="last_name"
-                            placeholder="Enter your first name"
-                            className="form--name"
+                            placeholder="Enter your last name"
                         />
                     </label>
                 </div>
@@ -34,7 +32,6 @@ export default function Contact() {
                         type="email"
                         id="email"
                         placeholder="yourname@email.com"
-                        className="form--email"
                     />
                 </label>
 
@@ -48,7 +45,7 @@ export default function Contact() {
                 </label>
 
                 <div className="form--check_sendBtn">
-                    <label className="checkBox">You agree to providing you data to {"{name}"} who may contact you
+                    <label className="checkBox">You agree to providing your data to Mahmud Abdulazeez who may contact you
                         <input 
                             type="checkbox"
                             className="check" 
@@ -56,7 +53,6 @@ export default function Contact() {
                         <span className="box"></span>
                     </label>
                     <Link 
-                        to="/success"
                         id="btn__submit">Send message
                     </Link>
                 </div>
